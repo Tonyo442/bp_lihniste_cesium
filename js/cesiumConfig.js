@@ -4,7 +4,7 @@ const cesiumAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4ZGZh
     destination: Cesium.Cartesian3.fromDegrees(17.1403, 49.6765, 400),
     orientation: {
     heading: Cesium.Math.toRadians(0.0),
-    pitch: Cesium.Math.toRadians(-15.0),
+    pitch: Cesium.Math.toRadians(-20.0),
     }
 };
 
