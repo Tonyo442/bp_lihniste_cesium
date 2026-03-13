@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Include the CesiumJS JavaScript and CSS files -->
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.139.1/Build/Cesium/Cesium.js"></script>
+  <link href="https://cesium.com/downloads/cesiumjs/releases/1.139.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <link href="">
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+
+  <div id="vrstvyMenu">
+    <h3>Vrstvy</h3>
+
+    <div id="tlacitko">
+      <input type="checkbox" id="toggleDeprese" checked>
+      <label for="toggleDeprese" style="cursor: pointer;">zaplavené deprese</label>
+    </div>
+
+    <div id="tlacitko">
+      <input type="checkbox" id="toggleMracno" checked>
+      <label for="toggleMracno" style="cursor: pointer;">Bodové mračno</label>
+    </div>
+  </div>
+
+  <script src="./js/index.js" type="module"></script>
+ </div>
+</body>
+</html>
